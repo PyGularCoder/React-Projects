@@ -8,20 +8,21 @@ To get started with these projects, you will need to have Node.js installed on y
 
 ```bash
 npm install -g vite
-
+```
 
 Once you have Vite installed, you can clone this repository and create a new project for each project you want to work on. For example, to create a new project for the "to-do list" project, you would run the following command:
 
-bash
+```bash
 vite@latest create-react-app to-do-list
+```
 
 
 This will create a new directory called `to-do-list` and install all of the dependencies for the project. You can then start the development server by running the following command:
 
-bash
+```bash
 cd to-do-list
 npm run dev
-
+```
 
 This will open the project in your browser and start the development server. You can then make changes to the code and see the results reflected in the browser.
 
@@ -29,7 +30,7 @@ This will open the project in your browser and start the development server. You
 
 Each project in this repository has the following structure:
 
-
+```
 src
 ├── App.js
 ├── components
@@ -39,8 +40,7 @@ src
 │   └── index.css
 ├── index.html
 └── package.json
-
-
+```
 The `App.js` file is the main entry point for the application. The `components` directory contains all of the React components used in the application. The `styles` directory contains all of the CSS styles used in the application. The `index.html` file is the main HTML file for the application. The `package.json` file contains all of the dependencies for the application.
 
 ## Vite Configuration
@@ -55,9 +55,9 @@ Vite supports Hot Module Replacement (HMR), which allows you to see changes to y
 
 Once you have finished developing your project, you can deploy it to a web server. Vite can generate a production build of your project by running the following command:
 
-bash
+```bash
 npm run build
-
+```
 
 This will create a `build` directory containing all of the files needed to deploy your project. You can then deploy the files to a web server.
 
